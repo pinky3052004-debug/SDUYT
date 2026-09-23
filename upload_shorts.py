@@ -143,12 +143,11 @@ def main():
         print("တင်ရန် ဗီဒီယိုအသစ် မတွေ့ရှိပါ။")
         return
 
-    videos_to_upload = pending_videos[:3]
+    videos_to_upload = pending_videos[:2]
     
     schedule_slots = [ 
-        (13, 00), 
-        (18, 30),
-        (23, 30)   
+        (19, 30), 
+        (21, 30) 
     ]
 
     mmt_tz = timezone(timedelta(hours=6, minutes=30))
